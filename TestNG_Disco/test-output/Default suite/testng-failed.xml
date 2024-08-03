@@ -3,21 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="basePage.playback">
+      <class name="profilePickerScreen.profileActions">
         <methods>
-          <include name="playBack"/>
-          <include name="signInToApp"/>
+          <include name="AddProfile"/>
           <include name="setUp"/>
-          <include name="launchApp1"/>
         </methods>
-      </class> <!-- basePage.playback -->
-      <class name="basePage.basePageOfApp">
-        <methods>
-          <include name="signInToApp"/>
-          <include name="setUp"/>
-          <include name="launchApp1"/>
-        </methods>
-      </class> <!-- basePage.basePageOfApp -->
+      </class> <!-- profilePickerScreen.profileActions -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
